@@ -11,6 +11,9 @@ body {
     font-family: 'Spartan';
     color: var(--white);
 }
+main {
+    padding: 50px 20px;
+}
 h1 {
     font-weight: 700;
     color: var(--very-dark-magenta);
@@ -31,6 +34,7 @@ h1, h2, p {
     background-color: var(--light-grayish-magenta);
     padding: 8px 0;
     margin: 12px auto;
+    border-radius: 5px;
 }
 .star {
     height: 16px;
@@ -39,9 +43,22 @@ h1, h2, p {
 }
 .comment {
     background-color: var(--very-dark-magenta);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
 }
 .comment .profile {
     display: flex;
+    align-items: center;
+}
+.comment .profile img {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+.comment .profile .id p {
+    margin: 5px 15px;
+    font-size: 12px;
 }
 .comment .status {
     color: var(--soft-pink);
@@ -49,6 +66,7 @@ h1, h2, p {
 .comment p {
     text-align: left;
     color: var(--light-grayish-magenta);
+    font-size: 12px;
 }
 .comment .name {
     color: var(--light-grayish-magenta);
