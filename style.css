@@ -9,20 +9,50 @@
 body {
     font-size: 15px;
     font-family: 'Spartan';
+    color: var(--white);
 }
 h1 {
     font-weight: 700;
     color: var(--very-dark-magenta);
 }
 h2 {
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 12px;
     color: var(--very-dark-magenta);
 }
 p {
     font-weight: 400;
+    color: var(--dark-grayish-magenta);
 }
-.status {
+h1, h2, p {
+    text-align: center;
+}
+.rate {
+    background-color: var(--light-grayish-magenta);
+    padding: 8px 0;
+    margin: 12px auto;
+}
+.star {
+    height: 16px;
+    text-align: center;
+    padding: 5px 0;
+}
+.comment {
+    background-color: var(--very-dark-magenta);
+}
+.comment .profile {
+    display: flex;
+}
+.comment .status {
     color: var(--soft-pink);
+}
+.comment p {
+    text-align: left;
+    color: var(--light-grayish-magenta);
+}
+.comment .name {
+    color: var(--light-grayish-magenta);
+    font-weight: 500;;
 }
 .attribution {
     font-size: 11px;
