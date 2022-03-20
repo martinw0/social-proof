@@ -60,6 +60,7 @@ Media queries for mobile
 ### Useful resources
 
 - [Media queries](https://developer.mozilla.org/fr/docs/Web/CSS/Media_Queries/Using_media_queries)
+- [CSS Selectors](https://www.w3schools.com/cssref/css_selectors.asp)
 
 ## Author
 
