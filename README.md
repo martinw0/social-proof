@@ -53,6 +53,22 @@ Media queries for mobile
 }
 ```
 
+Flex-basis:
+```
+.container {
+  display: flex;
+}
+.item {
+  flex-basis: 50%; // 2 item take full width
+}
+```
+
+nth-child  
+```
+.rates:nth-child(2) {
+  property for the second element inside .rates
+}
+```
 ### Continued development
 
 

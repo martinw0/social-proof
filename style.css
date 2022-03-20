@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
 }
 main {
-    padding: 50px 20px;
+    margin: 50px 20px;
 }
 h1 {
     font-weight: 700;
@@ -101,7 +101,7 @@ h1, h2, p {
 }
 @media all and (min-device-width: 1000px) {
     html, body {
-        min-height: 100%;
+        height: 100%;
     }
     body {
         background-position: top left, bottom right;
@@ -110,7 +110,9 @@ h1, h2, p {
     main {
         display: flex;
         flex-wrap: wrap;
-        padding: 150px;
+        align-content: space-around;
+        height: 95%;
+        margin: 0 100px;
     }
     .title {
         flex-basis: 50%;
@@ -118,9 +120,22 @@ h1, h2, p {
     .rates {
         flex-basis: 50%;
     }
+    .rate:nth-child(1) {
+        margin-left: 20px;
+    }
+    .rate:nth-child(2) {
+        margin-left: 40px;
+    }
+    .rate:nth-child(3) {
+        margin-left: 60px;
+    }
     .rate {
         display: flex;
         flex-direction: row;
+        width: 400px;
+    }
+    .rate .star {
+        margin: 0 25px;
     }
     .comments {
         flex-basis: 100%;
@@ -129,5 +144,15 @@ h1, h2, p {
     }
     .comment {
         margin: 0 20px;
+        height: 140px;
+    }
+    .comment:nth-child(1) {
+        margin-top: 20px;
+    }
+    .comment:nth-child(2) {
+        margin-top: 40px;
+    }
+    .comment:nth-child(3) {
+        margin-top: 60px;
     }
 }
