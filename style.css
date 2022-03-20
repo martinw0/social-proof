@@ -26,6 +26,7 @@ h2 {
 p {
     font-weight: 400;
     color: var(--dark-grayish-magenta);
+    font-size: 14px;
 }
 h1, h2, p {
     text-align: center;
@@ -75,7 +76,7 @@ h1, h2, p {
 .attribution {
     font-size: 11px;
     text-align: center;
-    color:hsl(0, 0%, 100%);
+    color:hsl(0, 0%, 0%);
     padding-bottom: 10px;
 }
 .attribution a {
