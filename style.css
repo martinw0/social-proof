@@ -82,3 +82,8 @@ h1, h2, p {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+@media all and (min-device-width: 1000px) {
+    body {
+        background-position: top right, center left;
+    }
+}

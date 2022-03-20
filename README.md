@@ -45,6 +45,13 @@ Users should be able to:
 
 ### What I learned
 
+Media queries for mobile
+```
+@media all and (max-device-width: 480px)
+{
+    /* Vos règles CSS pour les mobiles ici */
+}
+```
 
 ### Continued development
 
@@ -52,6 +59,7 @@ Users should be able to:
 
 ### Useful resources
 
+- [Media queries](https://developer.mozilla.org/fr/docs/Web/CSS/Media_Queries/Using_media_queries)
 
 ## Author
 
