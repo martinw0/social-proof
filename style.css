@@ -115,10 +115,10 @@ h1, h2, p {
         flex-wrap: wrap;
         align-content: space-around;
         justify-content: space-between;
-        margin: 150px 150px;
+        margin: 135px 150px;
     }
     .title {
-        flex-basis: 45%;
+        flex-basis: 40%;
         margin-left: 20px;
     }
     h1, h2, p {
@@ -128,7 +128,7 @@ h1, h2, p {
         font-size: 40px;
     }
     .rates {
-        flex-basis: 45%;
+        flex-basis: 50%;
         margin-right: 20px;
     }
     .rate:nth-child(1) {
