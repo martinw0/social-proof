@@ -106,28 +106,39 @@ h1, h2, p {
     body {
         background-position: top left, bottom right;
         background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     main {
         display: flex;
         flex-wrap: wrap;
         align-content: space-around;
-        height: 95%;
-        margin: 0 100px;
+        justify-content: space-between;
+        margin: 150px 150px;
     }
     .title {
-        flex-basis: 50%;
-    }
-    .rates {
-        flex-basis: 50%;
-    }
-    .rate:nth-child(1) {
+        flex-basis: 45%;
         margin-left: 20px;
     }
-    .rate:nth-child(2) {
+    h1, h2, p {
+        text-align: left;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .rates {
+        flex-basis: 45%;
+        margin-right: 20px;
+    }
+    .rate:nth-child(1) {
         margin-left: 40px;
     }
+    .rate:nth-child(2) {
+        margin-left: 80px;
+    }
     .rate:nth-child(3) {
-        margin-left: 60px;
+        margin-left: 120px;
     }
     .rate {
         display: flex;
